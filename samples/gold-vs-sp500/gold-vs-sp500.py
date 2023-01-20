@@ -127,7 +127,8 @@ def parse_args(pargs=None):
     parser.add_argument('--data1', required=False, default='GLD',
                         metavar='TICKER', help='Yahoo ticker to download')
 
-    parser.add_argument('--offline', required=False, action='store_true',
+    parser.add_argument('--offline', required=False, 
+    # parser.add_argument('--offline', required=False, action='store_true',
                         help='Use the offline files')
 
     # Defaults for dates
